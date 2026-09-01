@@ -1,4 +1,3 @@
-@"
 # MedLab
 
 Windows Server infrastructure homelab focused on Active Directory, DNS, DHCP, Group Policy, domain workstations and SMB file services.
@@ -10,4 +9,3 @@ Windows Server infrastructure homelab focused on Active Directory, DNS, DHCP, Gr
 - FS01 - Windows Server file server with SMB and NTFS permissions
 
 Domain: medlab.test
-"@ | Set-Content ".\README.md"
