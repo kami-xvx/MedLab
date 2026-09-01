@@ -1,0 +1,11 @@
+@"
+*.iso
+*.vdi
+*.vbox
+*.vbox-prev
+*.ova
+*.ovf
+*.sav
+
+Evidence/Raw/
+Snapshots/
