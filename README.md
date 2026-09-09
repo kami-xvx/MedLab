@@ -11,10 +11,8 @@ Windows Server infrastructure homelab focused on Active Directory, DNS, DHCP, Gr
 
 ## Project status: Work in Progress  
 Current stage: Backup / Recovery and final documentation
-2026-09-01
->elected screenshot documenting major implementation milestones
-
-2026-09-09
->dded SQL01 (Windows Server 2025), joined to medlab.test, configured MEDLAB-LAN connectivity and verified DNS/DC communication.
+>2026-09-01: elected screenshot documenting major implementation milestones
+---
+>2026-09-09: dded SQL01 (Windows Server 2025), joined to medlab.test, configured MEDLAB-LAN connectivity and verified DNS/DC communication.
 
 Domain: medlab.test
