@@ -1,0 +1,1 @@
+FS01 został zainstalowany, skonfigurowany w sieci MEDLAB-LAN ze statycznym adresem IP 10.20.0.20, dołączony do domeny Active Directory medlab.test i umieszczony w strukturze serwerów. Zweryfikowano łączność z DC01 oraz poprawne rozwiązywanie nazw DNS. Utworzono bazową strukturę folderów działowych na serwerze plików.

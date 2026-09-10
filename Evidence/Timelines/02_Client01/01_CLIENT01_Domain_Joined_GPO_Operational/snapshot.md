@@ -1,0 +1,1 @@
+CLIENT01 otrzymał konfigurację sieciową z DHCP na DC01, poprawnie rozwiązuje domenę medlab.test, został dołączony do Active Directory i przeniesiony do OU Workstations. Zweryfikowano zastosowanie GPO_Workstations_Baseline oraz GPO_Users_Baseline przez gpupdate i gpresult.

@@ -1,0 +1,1 @@
+Konto komputera SQL01 zostało dodane do domeny i przeniesione do OU MedLab/Computers/Servers.

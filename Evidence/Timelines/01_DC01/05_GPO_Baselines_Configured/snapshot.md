@@ -1,0 +1,1 @@
+Skonfigurowano GPO_Workstations_Baseline oraz GPO_Users_Baseline. Dla stacji roboczych ustawiono wyłączenie konta Guest, wyłączenie AutoPlay oraz Windows Defender Firewall dla profili Domain/Private/Public. Dla użytkowników ustawiono wygaszacz ekranu, ochronę hasłem i timeout 600 s. GPO podlinkowano do właściwych OU.

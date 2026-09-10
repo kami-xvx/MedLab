@@ -1,0 +1,1 @@
+Przywrócono poprawny secure channel z domeną medlab.test po ponownym dołączeniu SQL01. Zweryfikowano działanie polityk komputerowych oraz komunikację z DC01.

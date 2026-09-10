@@ -1,0 +1,1 @@
+Windows Server installed, hostname DC01, MEDLAB-LAN, static IPv4 10.20.0.10/24, gateway 10.20.0.1, external DNS operational. Before AD DS/DNS installation.

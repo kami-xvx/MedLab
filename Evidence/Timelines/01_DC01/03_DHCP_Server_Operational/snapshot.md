@@ -1,0 +1,1 @@
+DC01 skonfigurowany jako autoryzowany serwer DHCP dla medlab.test. Aktywny scope 10.20.0.0/24 z pulą 10.20.0.100–200, bramą 10.20.0.1 oraz DNS 10.20.0.10. Zweryfikowano konfigurację GUI i PowerShell oraz działanie usługi DHCPServer.

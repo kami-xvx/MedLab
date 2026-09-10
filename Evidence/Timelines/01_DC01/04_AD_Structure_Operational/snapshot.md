@@ -1,0 +1,1 @@
+Utworzono strukturę OU MedLab dla użytkowników, komputerów i grup. Dodano działy Lekarze, Pielegniarki, Administracja i IT, utworzono grupy bezpieczeństwa Global oraz testowe konta użytkowników i przypisano je do odpowiednich grup. Zweryfikowano strukturę i członkostwo w AD.

@@ -1,0 +1,1 @@
+Windows Server 2025 został promowany do roli kontrolera domeny DC01 dla domeny medlab.test. Skonfigurowano i zweryfikowano usługi AD DS, DNS oraz zewnętrzny serwer NTP. Ustawiono statyczny adres IP 10.20.0.10, a rozpoznawanie nazw DNS działa prawidłowo.

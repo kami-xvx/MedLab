@@ -1,0 +1,1 @@
+FS01 został dołączony do domeny medlab.test i skonfigurowany jako serwer plików. Utworzono udziały SMB dla Administracji, Lekarzy, Pielęgniarek i katalogu Public. Zastosowano uprawnienia NTFS oraz uprawnienia udziałów oparte na grupach domenowych. Zweryfikowano poprawny dostęp oraz odmowę dostępu z CLIENT01 zgodnie z członkostwem użytkowników w grupach.

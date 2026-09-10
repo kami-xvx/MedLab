@@ -1,0 +1,1 @@
+Utworzono grupy Domain Local DL_FS_* dla zasobów FS01 i przypisano do nich odpowiednie grupy Global GG_* zgodnie z modelem AGDLP. Public otrzymał dostęp dla wszystkich działów.

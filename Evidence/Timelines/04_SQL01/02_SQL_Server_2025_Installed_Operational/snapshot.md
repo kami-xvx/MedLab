@@ -1,0 +1,1 @@
+SQL Server 2025 Standard Developer został zainstalowany na SQL01. Skonfigurowano domyślną instancję MSSQLSERVER, uwierzytelnianie Windows oraz administratora domenowego MEDLAB\Administrator.

@@ -1,0 +1,1 @@
+SQL01 został dołączony do domeny medlab.test i skonfigurowany w sieci MEDLAB-LAN. Zweryfikowano komunikację z DC01, rozwiązywanie DNS oraz poprawne wykrywanie kontrolera domeny.
