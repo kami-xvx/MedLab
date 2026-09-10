@@ -1,11 +1,24 @@
-@"
 *.iso
 *.vdi
+*.vhd
+*.vhdx
 *.vbox
 *.vbox-prev
 *.ova
 *.ovf
 *.sav
 
+# SQL Server database / backup files
+*.mdf
+*.ndf
+*.ldf
+*.bak
+*.trn
+
+# Local/raw evidence
 Evidence/Raw/
 Snapshots/
+
+# Secrets / local configuration
+.env
+*.env
