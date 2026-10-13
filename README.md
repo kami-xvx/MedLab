@@ -1,27 +1,50 @@
 # MedIT-Lab
 
-Windows Server infrastructure homelab focused on Active Directory, DNS, DHCP, Group Policy,
-domain workstations, SMB file services and database infrastructure.
+Windows Server infrastructure homelab focused on Active Directory, DNS, DHCP, Group Policy, domain workstations, SMB file services, and database infrastructure.
 
-## Current infrastructure
+**Environment:** Oracle VirtualBox | Windows Server 2025 | Windows 11 Enterprise  
+**Domain:** `medlab.test`
 
-- **DC01** - Active Directory Domain Services, DNS, DHCP, GPO
-- **CLIENT01** - Windows 11 Enterprise domain workstation
-- **FS01** - Windows Server file server with SMB and NTFS permissions
-- **SQL01** - Windows Server 2025 database server with Microsoft SQL Server 2025 and SSMS 22
+## Featured Presentation
 
-## Project status: Work in Progress
+### Secure Resource Sharing in Corporate Networks (SMB)
 
-Current stage: SQL Server deployment and database administration
+**[View SMB Case Study — UBB 2026 (PDF)](Presentations/MedIT_Lab_SMB_SOII.pdf)**
 
-> **2026-09-01:** selected screenshots documenting major infrastructure implementation milestones.
+Academic presentation for *Operating Systems II*, documenting SMB shares, Active Directory group-based permissions (AGDLP), NTFS ACLs, and access-control tests performed in MedIT-Lab.
 
-> **2026-09-09:** added SQL01 (Windows Server 2025), joined to `medlab.test`, configured MEDLAB-LAN connectivity and verified DNS/DC communication.
+## Current Infrastructure
 
-> **2026-09-10:** organized full implementation evidence into VM- and snapshot-based timelines.
+| System | Role |
+|---|---|
+| **DC01** | Active Directory Domain Services, DNS, DHCP, GPO |
+| **CLIENT01** | Windows 11 Enterprise domain workstation |
+| **FS01** | Windows Server file server with SMB and NTFS permissions |
+| **SQL01** | Windows Server 2025 with SQL Server 2025 and SSMS 22 |
 
-> **2026-09-10:** restored SQL01 domain trust and verified Group Policy operation after secure channel recovery.
+## Project Status: Work in Progress
 
-> **2026-09-10:** completed SQL Server 2025 and SQL Server Management Studio 22 deployment on SQL01. Verified Windows Authentication using `MEDLAB\Administrator` and confirmed `sysadmin` access to the `MSSQLSERVER` instance.
+**Current focus:** SQL Server administration, SMB access control, and infrastructure maintenance.
 
-Domain: `medlab.test`
+**2026-09-01:** Selected screenshots documenting major infrastructure implementation milestones.
+
+**2026-09-09:** Added SQL01, joined it to `medlab.test`, configured MEDLAB-LAN connectivity, and verified DNS/DC communication.
+
+**2026-09-10:** Organized implementation evidence into VM- and snapshot-based timelines. Restored SQL01 domain trust and verified Group Policy operation.
+
+**2026-09-10:** Completed SQL Server 2025 and SSMS 22 deployment. Verified Windows Authentication and administrative access to the SQL Server instance.
+
+**2026-10-12:** Completed SMB access-control documentation, including AGDLP, share permissions, NTFS ACLs, and user access tests.
+
+**2026-10-13:** Finalized the SMB presentation for UBB. DC01 is currently undergoing AD DS recovery diagnostics; a recovery copy has been prepared.
+
+## Documentation
+
+- [Implementation Evidence](Evidence/Timelines/)
+- [SMB Presentation (PDF)](Presentations/MedIT_Lab_SMB_SOII.pdf)
+
+---
+
+**MedIT-Lab** — Windows Infrastructure · Active Directory · Networking · Security
+
+*Independent educational project | UBB 2026*
